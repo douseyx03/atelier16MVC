@@ -1,0 +1,42 @@
+header{
+    background-color: white;
+    color: gray;
+    text-align: center;
+    border-radius: 12px;
+    border-color: lightgray Solid 1px ; 
+    border-style: dashed;
+    width: calc(100%-10%);
+    padding-left: calc((100%-90%)-5%);
+    padding-right: calc((100%-90%)-5%);
+    margin: calc(100%-95%);
+    font-size: larger;
+    
+}
+main{
+    background-color: lightgray;
+    padding: calc((100%-90%));
+    margin-top: 5px;
+    margin: calc(100%-95%);
+    border-radius: 12px;
+    border: 10px;
+    width: calc(100%-10%);
+    height:8cm;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+input{
+    width: 8cm;
+    border-radius: 4px;
+}
+button{
+    width: 8cm;
+    border-radius: 4px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-size:xx-large;
+    color: gray;
+    font-weight: bold;
+}
