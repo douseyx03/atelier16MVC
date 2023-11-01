@@ -11,7 +11,13 @@
         <h1>Gestionnaire de contact</h1>
     </header>
     <main>
-        <form action="" method="post">
+        <?php 
+      //  include_once("../contr%C3%B4leur/contact.php");
+       // include_once(__DIR__.'../contrôleur/contact.php');
+       include_once("../modele/connexion_database.php");
+      // include_once(/*__DIR__*/.'../modele/connexion_database.php');
+        ?>
+        <form action="../contrôleur/contact.php" method="post">
             <label for="prenom">Prénom</label><br>
             <input type="text" id="prenom" name="prenom" autocomplete="off" required><br>
             <label for="nom">Nom</label><br>
@@ -25,7 +31,7 @@
             </select><br>
             <input type="submit" name="enregistrer" placeholder=" " value="Enregistrer">
         </form><br>
-        <button type="button"><a href="liste.html" <!--target="_blank"-- rel="Liste des contacts">Voir la liste des contacts</a></button>
+        <button type="button"><a href="liste.php" <!--target="_blank"-- rel="Liste des contacts">Voir la liste des contacts</a></button>
         <!--<a href="liste.html"><input type="button" value="Voir la liste des contactes" ></a>-->
     </main>
     <footer>
